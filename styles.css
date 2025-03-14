@@ -49,13 +49,13 @@ button {
     color: rgb(75,70,69);
     padding: 10px 15px;
     background-color: rgb(248,249,250);
-    border: none;
+    border: 1px solid rgb(248,249,250);
     border-radius: 4px;
 }
 
 button:hover {
     cursor: pointer;
-    border: 1px solid rgb(174, 176, 177);
+    border-color: rgb(174, 176, 177);
 }
 
 footer{
