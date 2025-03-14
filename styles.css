@@ -27,24 +27,17 @@ img {
     border-radius: 24px;
 }
 
-h1 {
-    font-size: 92px;
-    font-family: sans-serif;
-    text-align: center;
-    width: 272px;
-    margin: 0 auto;
-}
-
 input {
-    width: 444px;
+    width: 500px;
     /* height: 24px; */
     border: none;
-    resize: none;
+    font-size: 18px;
     padding: 10px 5px 10px 5px;
+    outline: none;
 }
 
 button {
-    font-size: 18px;
+    font-size: 14px;
     font-family: sans-serif;
     color: rgb(75,70,69);
     padding: 10px 15px;
@@ -91,40 +84,45 @@ footer{
     border-radius: 100%;
 }
 
+.main-google-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.main-google-img img {
+    width: 300px;
+}
+
 .section-a {
     align-items: center;
-    width: 584px;
+    width: 650px;
     height: 46px;
     margin: 20px auto;
     display: flex;
-    padding: 0px 15px;
+    padding: 10px 15px;
     justify-content: space-around;
     border-radius: 20px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
-.a {
-    color: rgb(66,133,244);
+.a-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.b {
-    color: rgb(234,67,53);
+.input-div {
+    flex: 1;
+    padding: 10px;
 }
 
-.c {
-    color: rgb(251,188,5);
+.section-a-svg-1 {
+    padding: 0 10px;
 }
 
-.d {
-    color: rgb(66,133,244);
-}
-
-.e {
-    color: rgb(52,168,83);
-}
-
-.f {
-    color: rgb(234,67,53);
+.section-a-svg-2 {
+    padding: 0px 10px;
 }
 
 .btn-section {
